@@ -1,0 +1,347 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<body>
+    <!-- Topbar Start -->
+    {% include "front-end/includes/headers.html" %}
+    <!-- Navbar End -->
+
+
+    <!-- Breaking News Start -->
+    {% comment %} <div class="container-fluid mt-5 mb-3 pt-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="d-flex justify-content-between">
+                        <div class="section-title border-right-0 mb-0" style="width: 180px;">
+                            <h4 class="m-0 text-uppercase font-weight-bold">Tranding</h4>
+                        </div>
+                        <div class="owl-carousel tranding-carousel position-relative d-inline-flex align-items-center bg-white border border-left-0"
+                            style="width: calc(100% - 180px); padding-right: 100px;">
+                            <div class="text-truncate"><a class="text-secondary text-uppercase font-weight-semi-bold" href="">Lorem ipsum dolor sit amet elit. Proin interdum lacus eget ante tincidunt, sed faucibus nisl sodales</a></div>
+                            <div class="text-truncate"><a class="text-secondary text-uppercase font-weight-semi-bold" href="">Lorem ipsum dolor sit amet elit. Proin interdum lacus eget ante tincidunt, sed faucibus nisl sodales</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> {% endcomment %}
+    <!-- Breaking News End -->
+
+
+    <!-- News With Sidebar Start -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <!-- News Detail Start -->
+                    <div class="position-relative mb-3">
+                        <img class="img-fluid w-100" src="{% static 'img/Best street food to enjoy in Delhi.jpg' %}" style="object-fit: cover;">
+                        <div class="bg-white border border-top-0 p-4">
+                            <div class="mb-3">
+                                <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                    href="">features</a>
+                                <a class="text-body" href="">July 14, 2023</a>
+                            </div>
+                            <h1 class="mb-3 text-secondary text-uppercase font-weight-bold">Best street food to indulge in Delhi</h1>
+                            <p>Street food is winning all over the world. People love indulging in lip smacking 
+                            food that's not very hard on their pockets!When it comes to India, Delhi is the king
+                             of appetizing street snacks. Here are some of the best street snacks to relish when 
+                             in Delhi.</p>
+                            <p>Chhole Bhature Delhi's best street food is Chhole Bhature. Spicy Chhole, stuffed 
+                            Bhaturas with that green chutney and special pickled salad, a plate of these is 
+                            enough to make your day.Although one can find at least one cart of Chhole Bhature in
+                            every street of Delhi, if you want to enjoy the best quality, you should surely 
+                            visit SitaRam Diwan Chand, in Paharganj, Chandni Chowk, Lajpat Nagar and Sadar Bazaar.</p>
+                            <h3 class="text-uppercase font-weight-bold mb-3">Mouth watering snacks</h3>
+                            <img class="img-fluid w-50 float-left mr-4 mb-2" src="{% static 'img/Chhole Bhature.png' %}">
+                            <p>Kebab If you're someone who likes non-vegetarian food too then don't forget to 
+                            have mouth melting kebabs in Delhi whenever you visit.
+                            From Karori kebab to Galouti Kebab you'll find everything here!
+                            The Streets of Jama masjid are the only place to find the best kebabs in Delhi!</p>
+                            <p>Golgappe Every age group's favorite street snack is here! Crunchy balls filled with 
+                            flavourful boiled potatoes, chickpeas, that spicy Jal-jeera and sweet & sour tamarind 
+                            chutney's combination makes it the most loved street food ever.
+                            Delhi's Golgappe are far better than Mumbai's Pani Puri and Kolkata's Puchke and 
+                            there's absolutely no question about it!
+                            Although you can also find these at every street of Delhi but to enjoy the most amazing
+                            quality, you'll have to visit Chandni Chowk, Lajpat Nagar or C.R. Park.</p>
+                            <p>Momos Although Momos is a Tibetan dish, it has made a special place in the hearts 
+                            of people in a few years as it is tasty yet pocket friendly.It is filled with cabbage,
+                             carrots and is made by steaming, frying or even in tandoor. And you can enjoy it with
+                              the spiciest tomato and red chilli chutney!Veg, chicken and paneer momos are the 
+                              most famous ones in Delhi. Best places to enjoy these are Dolma Aunty, Lajpat Nagar, 
+                              Satya Niketan.</p>
+                            <h5 class="text-uppercase font-weight-bold mb-3">Best Desserts</h5>
+                            <img class="img-fluid w-50 float-right mr-4 mb-2" src="{% static 'img/dessert.png' %}">
+                            
+                            <p>Rabri Falood After having this much spicy food you'll need to have something in 
+                            dessert too and there comes Rabri Falooda in your rescue!
+                            It is an extreme delight to have it especially in the summer. Best place to have 
+                            it is Gianni di hatti, Chandni Chowk</p>
+                            <p>Whenever you visit Delhi, these few dishes should definitely be on your checklist!
+                            Street foods are famous all over the world. Every place has its own special variety 
+                            of street food. But if we talk about our country India, I believe that be it Mumbai's
+                             Vada pav, Punjab's Amritsari Kulche or Bihar's Litti Chokha, every state has a unique 
+                             flavour of its own. But when it comes to our capital Delhi, no other place can beat 
+                             the diversity of the food served here. Since the Mughal era, Delhi has seen changes 
+                             and developments in its food. From vegetarian to non-vegetarian, spicy lovers to 
+                             sweet addicts, Delhi would never disappoint a foodie, it has everything for everyone! 
+                             Street food is not just about food but it involves a combination of many ancient and
+                              cultural stories. From Golgappe  to Desi Chinese, Delhi has all of it too in very 
+                              little price. At first, it was famous just among youth but now every age group enjoys
+                               it because of its amazing taste and pocket friendly feature.</p>
+                        </div>
+                        <div class="d-flex justify-content-between bg-white border border-top-0 p-4">
+                            <div class="d-flex align-items-center">
+                                <img class="rounded-circle mr-2" src="{% static 'img/user.jpg' %}" width="25" height="25" alt="">
+                                <span>AS</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <span class="ml-3"><i class="far fa-eye mr-2"></i>12345</span>
+                                <span class="ml-3"><i class="far fa-comment mr-2"></i>123</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- News Detail End -->
+
+                    <!-- Comment List Start -->
+                    {% comment %} <div class="mb-3">
+                        <div class="section-title mb-0">
+                            <h4 class="m-0 text-uppercase font-weight-bold">3 Comments</h4>
+                        </div>
+                        <div class="bg-white border border-top-0 p-4">
+                            <div class="media mb-4">
+                                <img src="{% static 'img/user.jpg' %}" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+                                <div class="media-body">
+                                    <h6><a class="text-secondary font-weight-bold" href="">John Doe</a> <small><i>01 Jan 2045</i></small></h6>
+                                    <p>Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor labore
+                                        accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum.</p>
+                                    <button class="btn btn-sm btn-outline-secondary">Reply</button>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <img src="{% static 'img/user.jpg' %}" alt="Image" class="img-fluid mr-3 mt-1" style="width: 45px;">
+                                <div class="media-body">
+                                    <h6><a class="text-secondary font-weight-bold" href="">John Doe</a> <small><i>01 Jan 2045</i></small></h6>
+                                    <p>Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor labore
+                                        accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed eirmod ipsum.</p>
+                                    <button class="btn btn-sm btn-outline-secondary">Reply</button>
+                                    <div class="media mt-4">
+                                        <img src="{% static 'img/user.jpg' %}" alt="Image" class="img-fluid mr-3 mt-1"
+                                            style="width: 45px;">
+                                        <div class="media-body">
+                                            <h6><a class="text-secondary font-weight-bold" href="">John Doe</a> <small><i>01 Jan 2045</i></small></h6>
+                                            <p>Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor
+                                                labore accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed sed
+                                                eirmod ipsum.</p>
+                                            <button class="btn btn-sm btn-outline-secondary">Reply</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> {% endcomment %}
+                    <!-- Comment List End -->
+
+                    <!-- Comment Form Start -->
+                    <div class="mb-3">
+                        <div class="section-title mb-0">
+                            <h4 class="m-0 text-uppercase font-weight-bold">Leave a comment</h4>
+                        </div>
+                        <div class="bg-white border border-top-0 p-4">
+                            <form>
+                                <div class="form-row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="name">Name *</label>
+                                            <input type="text" class="form-control" id="name">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="email">Email *</label>
+                                            <input type="email" class="form-control" id="email">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="website">Website</label>
+                                    <input type="url" class="form-control" id="website">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message">Message *</label>
+                                    <textarea id="message" cols="30" rows="5" class="form-control"></textarea>
+                                </div>
+                                <div class="form-group mb-0">
+                                    <input type="submit" value="Leave a comment"
+                                        class="btn btn-primary font-weight-semi-bold py-2 px-3">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Comment Form End -->
+                </div>
+
+                <div class="col-lg-4">
+                    <!-- Social Follow Start -->
+                    <div class="mb-3">
+                        <div class="section-title mb-0">
+                            <h4 class="m-0 text-uppercase font-weight-bold">Follow Us</h4>
+                        </div>
+                        <div class="bg-white border border-top-0 p-3">
+                            <a href="" class="d-block w-100 text-white text-decoration-none mb-3" style="background: #39569E;">
+                                <i class="fab fa-facebook-f text-center py-4 mr-3" style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
+                                <span class="font-weight-medium">12,345 Fans</span>
+                            </a>
+                            <a href="" class="d-block w-100 text-white text-decoration-none mb-3" style="background: #52AAF4;">
+                                <i class="fab fa-twitter text-center py-4 mr-3" style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
+                                <span class="font-weight-medium">12,345 Followers</span>
+                            </a>
+                            <a href="" class="d-block w-100 text-white text-decoration-none mb-3" style="background: #0185AE;">
+                                <i class="fab fa-linkedin-in text-center py-4 mr-3" style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
+                                <span class="font-weight-medium">12,345 Connects</span>
+                            </a>
+                            <a href="" class="d-block w-100 text-white text-decoration-none mb-3" style="background: #C8359D;">
+                                <i class="fab fa-instagram text-center py-4 mr-3" style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
+                                <span class="font-weight-medium">12,345 Followers</span>
+                            </a>
+                            <a href="" class="d-block w-100 text-white text-decoration-none mb-3" style="background: #DC472E;">
+                                <i class="fab fa-youtube text-center py-4 mr-3" style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
+                                <span class="font-weight-medium">12,345 Subscribers</span>
+                            </a>
+                            <a href="" class="d-block w-100 text-white text-decoration-none" style="background: #055570;">
+                                <i class="fab fa-vimeo-v text-center py-4 mr-3" style="width: 65px; background: rgba(0, 0, 0, .2);"></i>
+                                <span class="font-weight-medium">12,345 Followers</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Social Follow End -->
+
+                    <!-- Ads Start -->
+                    {% comment %} <div class="mb-3">
+                        <div class="section-title mb-0">
+                            <h4 class="m-0 text-uppercase font-weight-bold">Advertisement</h4>
+                        </div>
+                        <div class="bg-white text-center border border-top-0 p-3">
+                            <a href=""><img class="img-fluid" src="{% static 'img/news-800x500-2.jpg' %}" alt=""></a>
+                        </div>
+                    </div> {% endcomment %}
+                    <!-- Ads End -->
+
+                    <!-- Popular News Start -->
+                    <div class="mb-3">
+                        <div class="section-title mb-0">
+                            <h4 class="m-0 text-uppercase font-weight-bold">Tranding News</h4>
+                        </div>
+                        <div class="bg-white border border-top-0 p-3">
+                            <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                                <img class="img-fluid" src="{% static 'img/news-110x110-1.jpg' %}" alt="">
+                                <div class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+                                    <div class="mb-2">
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Business</a>
+                                        <a class="text-body" href=""><small>July 14, 2023</small></a>
+                                    </div>
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="">Lorem ipsum dolor sit amet elit...</a>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                                <img class="img-fluid" src="{% static 'img/news-110x110-2.jpg' %}" alt="">
+                                <div class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+                                    <div class="mb-2">
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Business</a>
+                                        <a class="text-body" href=""><small>Jan 01, 2045</small></a>
+                                    </div>
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="">Lorem ipsum dolor sit amet elit...</a>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                                <img class="img-fluid" src="{% static 'img/news-110x110-3.jpg' %}" alt="">
+                                <div class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+                                    <div class="mb-2">
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Business</a>
+                                        <a class="text-body" href=""><small>Jan 01, 2045</small></a>
+                                    </div>
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="">Lorem ipsum dolor sit amet elit...</a>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                                <img class="img-fluid" src="{% static 'img/news-110x110-4.jpg' %}" alt="">
+                                <div class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+                                    <div class="mb-2">
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Business</a>
+                                        <a class="text-body" href=""><small>Jan 01, 2045</small></a>
+                                    </div>
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="">Lorem ipsum dolor sit amet elit...</a>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center bg-white mb-3" style="height: 110px;">
+                                <img class="img-fluid" src="{% static 'img/news-110x110-5.jpg' %}" alt="">
+                                <div class="w-100 h-100 px-3 d-flex flex-column justify-content-center border border-left-0">
+                                    <div class="mb-2">
+                                        <a class="badge badge-primary text-uppercase font-weight-semi-bold p-1 mr-2" href="">Business</a>
+                                        <a class="text-body" href=""><small>Jan 01, 2045</small></a>
+                                    </div>
+                                    <a class="h6 m-0 text-secondary text-uppercase font-weight-bold" href="">Lorem ipsum dolor sit amet elit...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Popular News End -->
+
+                    <!-- Newsletter Start -->
+                    <div class="mb-3">
+                        <div class="section-title mb-0">
+                            <h4 class="m-0 text-uppercase font-weight-bold">Newsletter</h4>
+                        </div>
+                        <div class="bg-white text-center border border-top-0 p-3">
+                            <p>Please enter your email to subscribe</p>
+                            <div class="input-group mb-2" style="width: 100%;">
+                                <input type="text" class="form-control form-control-lg" placeholder="Your Email">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary font-weight-bold px-3">subscribe</button>
+                                </div>
+                            </div>
+                            <small>Lorem ipsum dolor sit amet elit</small>
+                        </div>
+                    </div>
+                    <!-- Newsletter End -->
+
+                    <!-- Tags Start -->
+                    <div class="mb-3">
+                        <div class="section-title mb-0">
+                            <h4 class="m-0 text-uppercase font-weight-bold">Tags</h4>
+                        </div>
+                        <div class="bg-white border border-top-0 p-3">
+                            <div class="d-flex flex-wrap m-n1">
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Politics</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Business</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Corporate</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Business</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Health</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Education</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Science</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Business</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Foods</a>
+                                <a href="" class="btn btn-sm btn-outline-secondary m-1">Travel</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tags End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- News With Sidebar End -->
+
+
+    <!-- Footer Start -->
+    {% include 'front-end/includes/footer.html' %}
+</body>
+
+</html>
